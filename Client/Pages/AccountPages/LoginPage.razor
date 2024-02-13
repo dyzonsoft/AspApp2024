@@ -1,0 +1,95 @@
+﻿@page "/identity/account/login"
+@using Client.Pages.OtherPages
+@layout AuthenticationLayout
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <EditForm Enhance Model="User" OnValidSubmit="HandleLogin">
+                 <DataAnnotationsValidator />
+                 <div class="card-header">Login An Account</div>
+                 <div class="card-body">
+
+                     @* Email Address *@
+                     <div class="form-group mb-3">
+                         <input @bind="User.Email"
+                                class="form-control"
+                                type="email"
+                                placeholder="Email Address">
+                         </input>
+                     </div>
+
+                     @* Password *@
+                     <div class="form-group">
+                         <div class="input-group mb-3">
+                             <input class="form-control"
+                                    @bind="User.Password"
+                                    placeholder="Password"
+                                    aria-label="Password"
+                                    aria-describedby="Password">
+                         </div>
+                     </div>
+                     <div class="form-group mt-3">
+                         @if (ShowLoadinButton)
+                        {
+                            <ButtonLoadingSpinner></ButtonLoadingSpinner>
+                        }
+                        else
+                        {
+                            <button class="btn btn-primary float-end" type="submit"> Login </button>
+                        }
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span class="text-center">
+                        Don't have account? |
+                        <a class="btn-link" href="identity/account/register">Sidn Up</a>
+                    </span>
+                    <ValidationSummary />
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    Login User = new();
+    public bool ShowLoadinButton { get; set; } = false;
+    [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
+    protected async override Task OnInitializedAsync()
+    {
+        await CheckUserAuthentication();
+    }
+
+    async Task HandleLogin()
+    {
+        ShowLoadinButton = true;
+        var result = await accountService.SignAsync(User);
+        if (result.Flag)
+        {
+            await DisplayDialog(result.Message, "Success");
+            var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+            await customAuthStateProvider.UpdateAuthenticationState(new UserSession()
+                { Token = result.Token, RefreshToken = result.RefreshToken });
+            NavManager.NavigateTo("/", forceLoad: true);
+        }
+        else
+        {
+            await DisplayDialog(result.Message, "Allert");
+        }
+        ShowLoadinButton = false;
+    }
+
+    private async Task DisplayDialog(string content, string title)
+    {
+        // await DialogService.AlertAsync(content, title);
+    }
+
+    private async Task CheckUserAuthentication()
+    {
+        var user = (await AuthenticationState).User;
+        bool isUserAuthenticated = user.Identity!.IsAuthenticated;
+        if (isUserAuthenticated)
+            NavManager.NavigateTo("/home/dashboard");
+    }
+}

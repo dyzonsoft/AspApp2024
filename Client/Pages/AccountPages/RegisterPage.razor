@@ -1,0 +1,128 @@
+﻿@page "/identity/account/register"
+@using Client.Pages.OtherPages
+@layout AuthenticationLayout
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <EditForm Model="User" OnValidSubmit="HandleRegistration" Enhance>
+                <div class="card">
+                    <div class="card-header">Create An Account</div>
+                    <div class="card-body">
+
+                        @* Fullname *@
+                        <div class="form-group mb-3">
+                            <input @bind-value="User.FullName"
+                                   class="form-control"
+                                   placeholder="Fullname">
+                            </input>
+                        </div>
+
+                        @* Email Address *@
+                        <div class="form-group mb-3">
+                            <input @bind-value="User.Email"
+                                   class="form-control"
+                                   type="email"
+                                   placeholder="Email Address">
+                            </input>
+                        </div>
+
+                        @* Password *@
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <input type="@(ShowPassword is true? "text":"password")"
+                                       class="form-control"
+                                       @bind-value="User.Password"
+                                       placeholder="Password"
+                                       aria-label="Password"
+                                       aria-describedby="Password">
+
+                                <span class="input-group-text cursorStyle"
+                                      id="Password"
+                                      @onclick="ShowPasswordEvent"> @(ShowPassword is true ? "Hide" : "Show") </span>
+                            </div>
+                        </div>
+
+                        @* Confirm Password *@
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <input type="@(ShowConfirmPassword is true? "text":"password")"
+                                       class="form-control"
+                                       @bind-value="User.ConfirmPassword"
+                                       placeholder="Confirm Password"
+                                       aria-label="ConfirmPassword"
+                                       aria-describedby="Confirm-Password">
+
+                                <span class="input-group-text cursorStyle"
+                                      id="ConfirmPassword"
+                                      @onclick="ShowConfirmPasswordEvent"> @(ShowConfirmPassword is true ? "Hide" : "Show") </span>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            @if (ShowLoadinButton)
+                            {
+                                <ButtonLoadingSpinner></ButtonLoadingSpinner>
+                            }
+                            else
+                            {
+                                <button class="btn btn-primary float-end" type="submit"> Register </button>
+                            }
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="text-center">
+                            You have already account? |
+                            <a class="btn-link" href="identity/account/login">Sidn In</a>
+                        </span>
+                        <ValidationSummary />
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    Register User = new();
+    public bool ShowLoadinButton { get; set; } = false;
+    public bool ShowPassword { get; set; }
+    public bool ShowConfirmPassword { get; set; }
+    [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        await CheckUserAuthentication();
+    }
+
+    private async Task HandleRegistration()
+    {
+        ShowLoadinButton = true;
+        var result = await accountService.CreateAsync(User);
+        if (result.Flag)
+        {
+            await DisplayDialog(result.Message, "Login Success");
+            User = new();
+        }
+        else
+        {
+            await DisplayDialog(result.Message, "Allert");
+        }
+        ShowLoadinButton = false;
+    }
+
+    void ShowPasswordEvent() => ShowPassword = !ShowPassword;
+    void ShowConfirmPasswordEvent() => ShowConfirmPassword = !ShowConfirmPassword;
+
+    private async Task DisplayDialog(string content, string title)
+    {
+        // await DialogService.AlertAsync(content, title);
+    }
+
+    private async Task CheckUserAuthentication()
+    {
+        var user = (await AuthenticationState).User;
+        bool isUserAuthenticated = user.Identity!.IsAuthenticated;
+        if (isUserAuthenticated)
+            NavManager.NavigateTo("/home/dashboard");
+    }
+}
