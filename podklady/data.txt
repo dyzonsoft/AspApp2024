@@ -1,0 +1,7 @@
+Password Manager
+
+Pro virtuální server dyzonsoft.cz byla zřízena nová databáze:
+Databáze: dyzonsoft_PassMan
+Hostitel: uvdb42.active24.cz
+Login: dyzonsoft_PassMa
+Password: passwordManager_Data_1

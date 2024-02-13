@@ -1,0 +1,780 @@
+
+=============================================================================
+ENDORA 
+perinka.jednoduse.cz
+
+Host:	localhost
+Název databáze:	dyzon1649590677
+Uživatel:	dyzon1649590677
+Heslo:	XV5)6h66S$WP6d7$
+
+Vaše pøístupové údaje:
+
+Doména: http://perinka.jednoduse.cz
+Adresa administrace : https://webadmin.endora.cz
+Uživatelské jméno: dyzon
+Heslo: mandragoraEndora
+Kontaktní e-mailová adresa: dusan@nafukovacireklama.cz
+
+Údaje k pøístupu na FTP:
+Hostitel: konik.endora.cz
+Uživatelské jméno: dyzon
+Heslo: si zvolíte pøi aktivaci úètu
+=========================================================================
+
+
+
+
+-------------------------------------------------------------
+microsoft windows doma koupenej klíè na vyhodny software 28.11.2021
+klíè: XW7NJ-3WQBY-63QV2-KVR27-B7V24
+
+
+**********************
+testovani asp.net core webových stránek a aplikací freehosting aspify
+dyzon / mandragoraAspify  ... dyzonsoft@gmail.com 
+----------------------------------------------------------------
+... - ultrabags.aspifyhost.cz - Èíslo objednávky : 73621858783;
+	Adresa administrace: https://admin.aspify.com
+	FTP server: free.aspify.com
+	FTP pøihlašovací jméno: ultrabags.aspifyhost.cz
+	FTP heslo: C-a4d5_YS}
+-----------------------------------------------------------------
+Doména: blazingchat.aspifyhost.cz - Èíslo objednávky : 73621858967;
+
+	Adresa serveru: free.aspify.com (78.24.236.85)
+	Adresa administrace: https://admin.aspify.com
+	FTP server: free.aspify.com
+	FTP pøihlašovací jméno: blazingchat.aspifyhost.cz
+	FTP heslo: Hc5$d2%SK{
+
+google BlazingChat OAuth:
+	Client ID: 507296255465-c6nkhprulbl09b4j20hp6lmupmpkgq2j.apps.googleusercontent.com
+	ClientSecret: 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
+----------------------------------------------------------------------
+Doména: perinka.aspifyhost.cz
+
+Adresa serveru: free.aspify.com (78.24.236.85)
+Adresa administrace: https://admin.aspify.com
+FTP server: free.aspify.com
+FTP pøihlašovací jméno: perinka.aspifyhost.cz
+FTP heslo: d$8S_9Rg5W
+--------------------------------------------------------------------------
+******************************
+www.pronajemreklamy.cz
+registrováno na: 
+jméno: Aleš  ;  pøijmení: Trlica
+ulice: Morkùvky 239  ;  obec: Morkùvky
+psè: 69172   ;  zemì: Èeská republika
+email: pronajemreklamy@gmail.com / pronajemreklamy1Heslo
+tel: 777964487
+
+FIRMA: název: Aleš Trlica - ièo: 76201180 - diè: CZ7602073820
+
+https://customer.active24.com/login
+pøihlášení Active24: fabaat3x / pronajemreklamyActive24
+
+FTP:
+v029834a  /  pronajemreklamy_FTP_1
+
+MySql
+uvdb42.active24.cz
+pronajem  /  pronajemReklamy_DATA_1  
+
+Databáze: pronajemskolka   // pokusná pro project skolka na Android
+Hostitel: uvdb47.active24.cz
+Login: pronajemskolka
+heslo: 1hesloSkolka
+// ==============================
+MSSql
+Databáze: d004234
+Hostitel: Cartman.globenet.cz nebo 81.95.100.130
+Login: d004234a
+Heslo: RM9WLBCJH4
+
+Pro virtuální server pronajemreklamy.cz byla zøízena nová databáze: 08.05.2022
+Databáze: d012933
+Hostitel: olive.globenet.cz
+Login: d012933a
+Heslo: 8x9cRJYrBG
+
+Email
+info@pronajemreklamy.cz / pronajemreklamy_info
+postmaster@pronajemreklamy.cz / 7jirD5TLLR
+
+Tiny
+https://www.tiny.cloud/my-account/dashboard/
+pronajemreklamy@gmail.com / pronajemreklamyTiny1
+*******************************************************************
+
+
+google úèet email dyzonsoft@gmail.com / mandragora1DyzonSoft
+
+
+
+14.04.2020 Microsoft mssql SQL Server 2019  localhost\MUJSQLSERVER sa / mujServer 
+	specify SQL Server administrators ... LIVANCOVO\livanec
+
+
+fio dus@nafrek.cz / 1hesloFioBank
+
+
+
+==================================================================
+www.dyzonsoft.cz
+
+rozhraní: https://customer.active24.com
+uživatel: fabaamaj
+heslo:    Active24dyzonsoft
+plátce:   dyzonsoft@gmail.com
+
+E-MAIL:
+user - info@dyzonsoft.cz
+pass - dyzonsoft_EMAIL_1_info
+pass - dyzonsoft_Email_1 
+
+FTP:
+== starej LINUX==
+host: dyzosoft.cz (dyzonsoft.cz.uvirt80.active24.cz)
+user:dyzonsoftc
+pass: dyzonsoft_FTP_1
+
+==novej WINDOWS
+host: ftp.dyzonsoft.cz (dyzonsoft.cz.lime.globenet.cz)
+user: v029467a
+pass: bfv2Ylk88S
+
+DATABASE:
+rozhraní - mysql.active24.cz
+host - uvdb42.active24.cz
+user - dyzonsoftc
+pass - dyzonsoft_DATA_1
+
+user - dyzonsof_rs
+pass - dyzonsoft_DATA_1_rs
+
+user - dyzonsoft_ASP
+pass - dyzonsoft_DATA_1_asp
+
+Databáze: dyzonsoft_Orders
+Hostitel: uvdb42.active24.cz
+Login: dyzonsoft_Orders
+pass - dyzonsoft_DATA_1_orders
+
+Databáze: dyzonsoft_Skolky
+Hostitel: uvdb42.active24.cz
+Login: dyzonsoft_Skolky
+pass - dyzonsoft_DATA_1_skolky
+
+Databáze: dyzonsoft
+Hostitel: uvdb42.active24.cz
+Login: dyzonsoft
+pass - dyzonsoft_DATA_1
+
+================
+Databáze: dyzonsoft_AspApp
+Hostitel: uvdb42.active24.cz
+Login: dyzonsoft_AspApp
+pass - dyzonsoft_DATA_2_asp
+
+Pro virtuální server dyzonsoft.cz byla zøízena nová databáze:
+Databáze: d012932
+Hostitel: cartman.globenet.cz
+Login: d012932a
+Heslo: V5uU2YimMS
+
+nejnovìjší: MySQL
+Databáze: dyzonsoft_blaz_ASP
+Hostitel: uvdb42.active24.cz
+Login: dyzonsoft_blaz_A
+pass: dyzonsoft_DATA_Blazor1_asp
+
+====================================================================
+
+
+
+dyzongame@email / mandragora
+
+
+
+dyzondelphi@gmail.com  /  mandragoraDelphi
+
+
+
+malwarebytes..................... 	License ID = 3CY99 
+		          	License Key = 7R24-44F0-0XLW-B12E
+
+nebo:
+ID : 3CY99 
+KEY : 7R24-44F0-0XLW-B12E? 
+
+https://www.wish.com/search/cz .... ulicnyoffice@gmail.com / mandragoraWish
+
+mandragoraFlash palecP
+
+SDL Trados Studio ......... dusanulicny@seznam.cz / mandragoraSdl1
+
+http://kontakto.cz ... dusan@nafukovacireklama.cz / cockyKontakto
+
+https://cz.pinterest.com/ ... dyzon@email.cz / mandragoraPrinterest1
+
+prusa ... dusan@nafukovacireklama.cz / mandragoraPrusa
+
+mapy.cz  .....  ulicnymapy@seznam.cz  /  ulicny1MapyCZ
+
+
+www.wix.com ...  dyzon@post.cz / mandragoraWix
+
+3D_Soft: 
+https://www.tinkercad.com/  ...  dyzonsoft@gmail.com / mandragora.Tinkercad1
+https://cad.onshape.com  ...  dyzonsoft@gmail.com / mandragora.Onshape
+===================================================================================
+www.alza.cz   ulicnyoffice@gmail.com / mandragoraAlza
+
+https://www.aliexpress.com  ... ulicnyoffice@gmail.com / mandragoraAli
+
+www.experts-Exchange  .... dyzonsoft@gmail.com / mandragoraExpert
+
+www.iconfinder.com   .... dyžon / dyzonsoft@gmail.com / mandragoraIkony
+
+kosik.cz ....  dusanulicny@seznam.cz / trinitro1
+
+kfc .... ulicnyoffice@gmail.com / mandragoraKfc1
+
+push video wallpaper (dreamscene) win10 ... koupeno, ulicnyoffice@gmail.com .. ulozeno v koupenej soft \ PUSH Entertainment
+
+microsoft ucet doma: ulicnyoffice@gmail.com / mandragoraWin10 / pin: 1976
+
+one drive doma OneDrive: ulicnyoffice@gmail.com / mandragoraWin10
+
+asus_wifi  _  admin / mandragoraWifi
+
+https://www.daemon-tools.cc/home  dyzontest@gmail.com / mandragoraDaemon
+
+https://www.sofe.cz/ dusan@nafukovacireklama.cz / mandragoraSoftWare  nákup software
+
+avast doma cleanup ... dyzonsoft@gmail.com / mandragoraAvast    ;do  5. leden 2022  ; GYFVEG-9T9442-5L4ABN
+
+skype   dyzon1 / mandragoraSkype
+
+http://vip.asus.com/forum/profile_view.aspx?SLanguage=cs-cz&ShowAll=1&login=mN+4FH4kPoV61DpPhbr3FIEVHxHqI1fe ... dyzon1976@seznam.cz / pidizvik
+
+win 10 notebook, ucet microsoft:  mojewin10@post.cz / mandraWin10 / 1976
+
+http://www.delphipraxis.net .... dyzon / mandragora / dyzon@email.cz
+
+embarcadero Delphi 10 Seatle notebook: saxan20@seznam.cz / mandragoraDelphi ... saxan miller
+
+www.experts-exchange.com    dyzon@email.cz / mandragoraExpert
+
+iFortuna.cz   dyzon / mandragoraFortuna  .. dyzon@email.cz
+
+kulecnik karambol .. www.nir.cz ... dyzon / mandragora / dusan@nafukovacireklama.cz
+
+https://www.noip.com/ dyzonsoft@gmail.com / dyzonsoft / mandragora /dyzonsoft.sytes.net
+
+dyzontest@gmail.com / mandragora
+
+https://www.phpbb.cz/   dyzonsoft@gmail.com ..  dyzžon / mandragoraforum
+
+programovani .. http://forum.zive.cz/  ... dyžon / mandragora (stary)
+				novì 09.11.2023 se pøihlašuju pøes google 				úèet dyzonsoft@gmail.com
+
+manikova pizza ...  dyzon@email.cz  / mandragoramanik
+
+www.edna.cz  .. dyžon1 / dyzon@email.cz  /  mandragoraedna
+
+livesport .. dyzon@email.cz / mandragoraLive
+
+MEGASync  ..  dyžon / dyzon@email.cz / mandragoraMegasync
+
+firefox account  ulicnyoffice@gmail.com / mandragoraFirefox
+
+dyzonhraje@seznam.cz / mandragora
+
+cz.upjers.com  / uptasia / Dyžon / dyzonhraje@seznam.cz / mandragorauptasia
+
+kytary.cz    dusanulicny@seznam.cz / mandragora
+
+facebook Dušan Ulièný / dusanulicny@seznam.cz / mandragoraFacebookDusan
+
+moje.allianz.cz  ..  08682865 / mandragora1Allianz
+
+amici pizza:  dusan@nafukovacireklama.cz / mandragoraAmici
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+XAMPP - phpMyAdmin ... pc doma ... 25.08.2018
+
+user:   dusan
+heslo: mandragora
+
+databaze: test_db1
+
+
+MySQL_instaler (c:\ProgramFiles\MySql)
+
+MySQL Root Pasword: mandragoraRoot
+
+username: dusan
+password: mandragora
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+=====================================================================================
+e_shop							   e-shop na www.dyzon.xf.cz/zkweby/3dtisk
+PrestaShop:
+ucet:
+Jmeno:		Karel
+Prijmeni:	Nohavica
+tel:  		665254432
+email:		dyzon@post.cz
+heslo:		mujprvniEshop
+prihlaseni:  dyzon@post.cz  / mujprvniEshop
+
+administrace: http://www.dyzon.xf.cz/zkweby/3dtisk/admin509imfeyz
+
+
+www.templatemonster.com
+ucet:
+Jmeno:		Karel
+Prijmeni:	Nohavica
+tel:  		665254432
+email:		dyzon@post.cz
+heslo:		mandragoraTemplate
+=====================================================================================
+dyzonsoft.cz                                                  dyzonsoft.cz
+
+ADMINISTRACE
+uživatel:  dyzonsoft@gmail.com
+heslo: mandragora1_Wedos
+
+FTP
+hostitel: 193634.w34.wedos.net
+uživatel: w193634
+heslo:    dN4gf8D
+
+Databázový server: md22.wedos.net
+Název databáze: d193634_prvni
+
+Uživatel pro správu databáze (má plná pøístupová práva):
+Jméno: a193634_prvni
+Heslo: vvxPrMa3
+
+Uživatel s omezenými právy pro použití ve vašich skriptech:
+Jméno: w193634_prvni
+Heslo: EUaepUEB
+
+Správa databáze pøes phpMyAdmin:
+https://pma.wedos.net/
+
+POZOR! Instalujete-li CMS èi jinou aplikaci pomocí jejího prùvodce, použijte databázového uživatele a193634_prvni (protože uživatel w193634_prvni nemá práva pro vytváøení tabulek).
+
+K vašemu webhostingu si mùžete zøídit neomezený poèet databází, jste však omezeni celkovým obsazeným prostorem 1 GB (popø. 2 GB v pøípadì balíèku Extra).
+
+Databáze je pøístupná pouze z webhostingu a rozhraní phpMyAdmin. Pøístup zvenku èi z VPS není možný ani za pøíplatek.
+
+Další informace, návody a øešení problémù hledejte v naší znalostní bázi:
+http://kb.wedos.com/webhosting/databaze.html
+
+=====================================================================================
+dyzon.xf.cz                                                  dyzon.xf.cz
+
+ADMINISTRACE
+uživatel:  dyzon.xf.cz
+heslo: mandragoraDyzon.xf.cz
+
+FTP
+hostitel: dyzon.xf.cz
+uživatel: dyzon.xf.cz
+heslo:    mandragoraDyzon.xf.cz
+
+My SQL
+Jméno databáze: dyzonxfcz0486        
+Host name pro databázi: sql2.webzdarma.cz
+Login: dyzonxfcz0486	                
+Heslo: mandragora_Dyzon_DB	                
+Webové rozhraní k databázi: phpMyAdmin
+
+=====================================================================================
+Skakaci hrad
+
+zakaznicke centrum ... https://customer.active24.com/login
+egeei7to
+AirShapeActive24							Skákací hrad
+
+ADMINISTRACE 
+uživatel:  Dyžon  (dyžon)
+heslo: mandragoraSH1
+
+FTP
+hostitel: skakacihrad.eu
+uživatel: skakacihra
+heslo:    mandragoraFTP1
+
+Webové rozhraní k databázi: mysql.active24.cz
+
+My SQL
+Jméno databáze:         skakacihra1
+Host name pro databázi: uvdb29.active24.cz
+Login: 	                skakacihra1
+Heslo: 	                iiCarsqv
+
+další:
+Jméno databáze:         skakacihASP
+tabulka:                zakazky
+Host name pro databázi: uvdb29.active24.cz
+Login: 	                skakacihASP
+Heslo: 	                mandragoraASP1
+=====================================================================================
+
+https://www.cincopa.com/       dyzon@email.cz / mandragoracinc
+
+ToList: 	Nazev: Skákací hrad
+		URL  : http://skakacihrad.eu
+		Heslo: mandragoraTopList
+		ID   : 1753894
+		Podrobne statistiky: http://www.toplist.cz/stat/1753894
+
+http://lp.legendsofhonor.com ...  dyžon / mandragoraloh
+
+webzdarma.cz   .....  dyzon.xf.cz / mandragora1Dyzon   ...  ulicnyoffice@gmail.com
+
+Mipony - 9kw.eu      ApiKey: 91NF9NBOP54ZDPBQ9Q .. dyzon / mandragoracaptcha / dyzon@email.cz
+
+Mipony - DethByCaptcha    dyzon / mandragoracaptcha / dyzon@email.cz
+
+Razer Cortex ...... dyzon@email.cz / mandragorarazer
+
+IOBit Dashlane .... dyzon@email.cz / Mandragora1
+
+tipsport .............. dyzon / mandragoratip ... ulicnyoffice@gmail.com
+
+sms.cz  .... dyzon007 ... dyzon@post.cz / mandragora  ...  dyzon007@sms.cz
+
+https://secure.skype.com/portal/overview    dyzon@email.cz / mandragora1  ...  dyžon dyžonoviè
+
+http://cheats4game.net/  saxan20@seznam.cz / mandragora   saxan saxanovic
+
+MicroSoft uèet ... dyzonsoft@gmail.com / mandragoraMicroSoft   ....  po visual studio / mandragoraMicrosoft
+
+http://forum.grimdawn.cz/  dyzon@email.cz  ...  dyžon / mandragoragrim
+
+facebook .... saxan saxanoviè ... saxan21@seznam.cz / mandragoraface
+
+ZenMate VPN (skryti IP) .... saxan20@seznam.cz  /  mandragorazen
+
+unity3d.com  ........  name: Dyžon Soft; Username: dyzon;  dyzonsoft@gmail.com / mandragora1Unity
+
+dyzonsoft@gmail.com      Dyžon Soft   / mandragora  /// pro ucet microsoft  dyzonsoft@gmail.com / mandraDS1_gora / 607589424
+
+https://store.stardock.com   dyzon@email.cz / mandragora
+
+https://cgcookie.com/     dyzonsoft@gmail.com / mandragoragame
+
+https://www.evernote.com/    dusanulicny@seznam.cz / poznamkovyblok
+
+https://www.semena-marihuany.cz/cs/     dusanulicny@seznam.cz  /  marihuana
+
+http://sonymobile.com/cs-CZ/   ...dusanulicny@seznam.cz / telefonX10
+
+http://www.topsony.com/forum/ ....  dyzon / mandragora   ..  /dyzon@email.cz 
+
+annonnym@volny.cz / proAnonym
+
+www.cd.cz ....... dusanulicny@seznam.cz / VlakyJizdenky
+inkarta .......... 9 203 1120 103 058 311 3 / ink1976  pøedpalcena in25 do 9.2.2018
+
+ticketpro.cz   ulicnyoffice@gmail.com  /  mandragoraticket
+
+prekladyher.cz      dyzon / mandragora   ..  dyzon@email.cz  .. (dyzonsoft@gmail.com) zmeneno 5.cervence.2016
+
+http://forum.viry.cz/   .....  dyžon / dyzon@email.cz / mandragora
+
+http://www.tradicnirecepty.cz/     dyzon@email.cz  /  mandragora
+
+http://www.chip.cz/    saxan20@seznam.cz / mandragora
+
+http://forum.divinityfan.cz/   ...  dyzon / mandragora
+
+http://www.slevocar.cz/   ...  ulicnyoffice@gmail.com / stoupa
+
+PHOTOSHOP cs6 .....  saxan20@seznam.cz / mandragora20PHOTO    saxan /saxanovic
+
+http://www.regulace.org/  login: libor.mayer@seznam.cz   heslo:  trinitroglicerin
+
+http://cboxera.com  ... dyžon / mandragora  kvuli stahovani z uploaded.com
+
+Uploaded.net  ... saxan20@seznam.cz  ... ID: 14199315   pass: mandragora  15.10.2016 na 29 dni
+
+drop box .... dyžon fighter ... dyzon@email.cz / mojemistecko
+
+dyzon@email.cz .... menstruace ... oblibeny film / matrix / tel: 728 960 005
+ovìøovací email: <dyzonsoft@seznam.cz>
+
+saxan21@seznam.cz .. mandragora / otazka .. nasrat
+
+www.itnetwork.cz ........ ulicnyoffice@gmail.com / heslo  ..  mandragora 
+
+www.jidloted.cz/     Ulicnyoffice@gmail.com / mandragora
+
+COREL: dyzon@post.cz/mandragora
+
+
+http://www.planet-source-code.com/vb/scripts/BrowseAllCategories.asp?lngWId=7  ...............  jednadvacetpet@post.cz / 125heslocode
+
+
+rozesilani FOE  ................ FoE-support@seznam.cz / supportFOE
+				    FoE-podpora / podpora
+
+
+jednadvacetpet (GGE) .... jednadvacetpet@post.cz / 125heslo  ..  to samy je pro mail.
+drtikolfighter (GGE) .... drtikol5500@seznam.cz / drtikolgame
+Sir Saxan (GGE) ......... saxan20@seznam.cz / nitroglicerin
+rezet (GGE) ............. saxan21@seznam.cz / mandragora1
+
+www.interwork.cz  ........... Ulicnyoffice@gmail.com / mandragora
+
+Unity 3D .... free verze ... Ulicnyoffice@gmail.com  /  name: ulicny  / pass: nitroGmail1
+                             saxan20@seznam.cz / name: saxan / pass: nitroSaxan20
+
+FastShare.cz .... dyzon / mandragorafast   ..  dyzon@post.cz
+
+CodeProject.com    dyzon@post.cz / mandragoracode
+
+Photoshop CS6 ... dyzon@post.cz / rudolf .........  dyžon, dyžon .. uz je novy nahore
+
+DropBox ... dyžon, dyžon, dyzon@post.cz, mandragora
+
+dyzon@post.cz ... mandragoramail
+
+airbank ....   UliDusan / 1hesloAirBank1 ... obrazky: 1. šicí stroj, 2. parník
+			heslo pro aplikaci 197628  zmìnìno: 05.01.2023
+
+goPay ....... ulicnyoffice@gmail.com // megakatastrofa1976
+
+steam ..............  saxan20  /  nehoraznost1976  ...  odpoved na otazku ..  krk
+
+domena klikacfoe.cz   klikac/ strankyklikace
+
+klikacfoe@gmail.com  /  123klikacFoE   ..  Marek Novak
+
+Advanced System Care--
+	-Protected Folder ..  mandragora .. otazkaje    folder
+
+PaswordBox  ......  dyžon / dyžon1976@seznam.cz / kamasutra
+
+domena   foeklikac.bluefile.cz  ==  foeklikac@gmail.com  vinklar  / mandragora
+
+foeklikac@gmail.com  / programprohru
+
+www.sw.centrum.cz ....   ulicnyoffice@gmail.com / mandragora
+
+www.fastshare.cz     saxan20@seznam.cz  / mandragora
+
+www.datoID.cz .....    saxan20@seznam.cz / qn7k98pp
+
+drtikol5500@seznam.cz  / jedemezkopce
+
+JidelnaStankova ......  Dušan  /  mamhlad  .....  ulicnyoffice@gmail.com
+
+Battle.net .....  Mistr Sveta .. dyzonsoft@seznam.cz ... mandragoraBattle
+
+rajce.idnes.cz ............ saxan20 ... saxan20@seznam.cz ../.. stoupa
+
+http://www.wysiwygwebbuilder.eu/index.php  ............ dyžon / mandragora
+
+dyzonsoft@seznam.cz .....  trinitroglicerin  / tel: 728 960 005
+ovìøovací email: <dyzon@email.cz>
+
+SEcure Folder ......   heslo: mandragora, ... mail: saxan20@seznam.cz
+
+ www.ebastlirna.cz/ ......  saxan  /  stoupa      ... saxan20@seznam.cz
+
+Panzar ....  saxan20@seznam.cz / trinitroglicerin
+
+www.grafon.cz  ........  ulicnyoffice@gmail.com / stoupa
+
+http://www.mp3hits.cz/     dyzon / okurek1976
+
+Ulozto.cz ............. dyzon76 / stoupa1976
+
+Ulozto.cz  .............  dyzon1976 / stoupa1976  ..  dyzon1976@seznam.cz
+
+www.filesfetcher.com // stahovani online koukani  ....  saxan20@seznam.cz  / trinitro
+
+Tesco nakup domu .... dusanulicny@seznam.cz  /  trinitro1
+
+https://www.rohlik.cz .... dusanulicny@seznam.cz / mandragoraRohlik
+
+Organizer    ....  NIKOTIN / trinitroglicerin
+
+google ulicnyoffice@gmail.com   .....  mandragoraTrinitroglicerin-1976  ... 25.08.2021 zmìnìno
+
+google ucet v praci
+dusanovaprace@gmail.com  /  dusanVpraciNelelkuje
+
+https://www.backlinksgenius.com/ ......  ulicnyoffice@gmail.com  /  ulicnyoffice1976
+
+http://www.thesettlers-online.cz/cs  ...... dyzon1976  /  baracuda .. dusanulicny@centrum.cz
+
+http://www.thesettlers-online.cz/cs  ...... saxan76  / trinitroglicerin ..  saxan20@seznam.cz
+----------------------------------------------------------------------------------------------
+
+http://www.wotanserver.com ............... dusanulicny@seznam.cz  /  nitroglicerin1
+
+dusanulicny@centrum.cz ................ stoupa1976 .... nitroglicerin
+
+dyzon@centrum.cz ........... mandragoraCentrum / tel: 775280776 - pri zapomenuti hesla
+
+saxan20@seznam.cz   ..../ nitroglicerin
+
+best-warez ....  dyzon  /  stoupa
+
+vavra.kx@seznam.cz .... radiator1976 -- 
+
+
+
+pokerstars ....  dyžon1  /  radiator1976
+
+sharerapid .... dyzon1976  /  stoupa
+
+warmacher .... dyzon  /  stoupa
+
+www.emailing.cz  ....   / reinkarnace   ...  mail .. ulicny70@gmail.com / reinkarnace
+
+Warezforum.cz .... dyzon  /  stoupa
+warezforum.eu  ... dyzon  /  stoupa
+
+war4all.com ....  dyzon  /  stoupa
+
+war-king. cz ....  dyzon  /  stoupa
+
+wareznet.cz ....  dyzon  /  stoupa
+
+mojeUPC (i pro horizonGo) ....  Ulicnyupc  /  krtek1.upc ... WiFree .. Dusan-UPC1 
+	pin(rodicovsky zamek) 0000; 
+
+www.warez.azbase.net   ....  dyzon  /  stoupa
+
+www.pcporadenstvi.cz/user ....   dyzon  /  Eq5GLFs6xT
+
+Auglio.cz  ....   dyzon  /  C11ggevrmr
+ 
+Best Warez Forum.eu  .... dyzon  /  stoupa
+
+battle.net  ....  ulicnyoffice@gmail.com  /  stoupa1976
+
+www.frag.cz .... dyzon  /  mrkev
+
+slevomat.cz .......... dusanulicny@seznam.cz  /  mandragoraSlevomat  (27.06.2017)
+
+www.vistaprint.cz  ...............   ulicnyoffice@gmail.com  /  okurek
+
+net-park.cz ..........................  dyzon  /  okurek
+
+www.pc-help.cz .......................   dyzon  /  stoupa
+
+programujte.com  ..............  dyzon  /  stoupa
+
+http://www2.flamingtext.com ........ dusanuli@ / stoupa1976
+
+Torchlight2.cz  ....................  dyzon  /  stoupa
+
+
+https://www.lushstories.com/upgrade/offer  
+
+dyzon@email.cz  
+mandragora  /  mandragoraMojeporno1
+
+https://storiesonline.net
+dyzonsoft@seznam.cz  /  mandragoraMojeporno1
+
+http://cz.drakensang.bigpoint.com/big/05?aid=991&aig=481&aip=&SourceId=355&CreativeId=16190737&LineItemId=4981157&PublisherId=261358&SectionId=193404501   ...................  -dyzon-  /  gamesa
+
+libor.mayer@seznam.cz .... jedemezkopce
+
+www.damejidlo.cz ........ dusanulicny@seznam.cz / mandragoraDameJidlo
+
+ales moneta .. 303934034 / Charlie4464
+
+dusanulicny@seznam.cz ......  mandragoraSeznam
+
+
+
+-------------------------------------------------------------------------
+
+dyzonsoft.cz
+dyzontest.cz
+sports-bags.eu
+sports-bags.com
+sportovni-tasky.cz
+
+uživatel: fabaamaj
+heslo:    Active24_dyzonsoft
+plátce:   dyzonsoft@gmail.com
+
+18. 5. 2023  ---  1437,48 CZK
+12. 4. 2023  ---  3246,43 CZK
+
+-------------------------------------------------------------------------
+
+Skakaci hrad
+
+doména skakacihrad.eu  byla zrušená.
+
+zakaznicke centrum ... https://customer.active24.com/login
+uživatel: egeei7to
+heslo:    AirShapeActive24
+plátce:   dyzonsoft@gmail.com
+
+pøesunuto na: https://admin.websupport.cz/
+
+uživatel:  Dyžon
+heslo: AirShapeActive24
+
+úèet je prázdnej bez žádných plateb.
+
+-------------------------------------------------------------------------
+
+nafukovacireklama.cz
+airshapeeurope.com
+
+uživatel: egeei4zx
+heslo:    Active24_AirShape
+plátce:   dusan@nafukovacireklama.cz
+
+9. 12. 2022  ---  687,28 CZK
+12. 9. 2022  ---  2308,68 CZK
+
+-------------------------------------------------------------------------
+
+zakaznicke centrum ... https://customer.active24.com/login
+uživatel: fabaajqw
+heslo:    Active24_jidelnaDukelska
+plátce:   casinokrupier@seznam.cz
+
+úèet je prázdnej bez žádných plateb.
+
+-------------------------------------------------------------------------
+
+pronajemreklamy.cz   zrušeno
+
+uživatel: fabaat3x
+heslo:    Active24_pronajemReklamy
+plátce:   ales@nafukovacireklama.cz
+
+www.pronajemreklamy.cz
+registrováno na: 
+jméno: Aleš  ;  pøijmení: Trlica
+ulice: Morkùvky 239  ;  obec: Morkùvky
+psè: 69172   ;  zemì: Èeská republika
+email: pronajemreklamy@gmail.com / pronajemreklamy1Heslo
+tel: 777964487
+
+FIRMA: název: Aleš Trlica - ièo: 76201180 - diè: CZ7602073820
+
+https://customer.active24.com/login
+pøihlášení Active24: fabaat3x / pronajemreklamyActive24
+
+úèet je prázdnej bez žádných plateb.
+
+-------------------------------------------------------------------------

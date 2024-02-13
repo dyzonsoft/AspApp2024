@@ -1,0 +1,14 @@
+
+konzole přidání vytvořenýho projektu do git  ..
+
+E:\_PROJEKTY\WEB\BLAZOR\AspApp2024>git init
+	git status
+	git add -A
+	git status
+	git commit -m "first commit"
+	git remote add origin "adresa klonu z git"
+
+pokračování:
+https://www.youtube.com/watch?v=1avo_hNKs2Y&list=PLhz6FAyiBzY4IN2ic_i9zT_jAwf4gJrPo&index=2
+
+12:58
