@@ -1,0 +1,129 @@
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.navigation {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    /*background: var(--clr-primary);*/
+    border-left: 2px solid var(--clr-primary);
+    transition: 0.5s;
+    overflow: hidden;
+    box-shadow: var(--shadow-middle);
+}
+    .navigation ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+    .navigation ul li {
+        position: relative;
+        width: 100%;
+        list-style: none;
+        border-radius: calc(var(--px-45) / 2);
+        background: var(--bg-up);
+        box-shadow: var(--shadow-up);
+        margin: 8px 0;
+        border: 1px solid var(--clr-white);
+    }
+
+        li:hover {
+            background: var(--bg-middle);
+            box-shadow: var(--shadow-middle);
+        }
+            li:hover a {
+                color: var(--clr-primary);
+            }
+
+
+li.active {
+    background: var(--bg-down);
+    box-shadow: var(--shadow-down);
+    border: 1px solid var(--clr-primary);
+}
+li.active a {
+    color: var(--clr-primary);
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+li:nth-child(1) {
+    pointer-events: none;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 50px;
+}
+    li:nth-child(1) a {
+        color: var(--clr-primary);
+    }
+
+
+/* li:nth-child(1):hover {
+     background: transparent;
+    
+}*/
+
+
+ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--clr-text-primary);
+}
+li a .icon {
+    position: relative;
+    display: block;
+    min-width: var(--px-45);
+    height: var(--px-45);
+    line-height: calc(var(--px-45) + 16px);
+    text-align: center;
+}
+    li a .icon ion-icon {
+        font-size: 1.75em;
+        color: var(--clr-primary);
+    }
+
+
+li a .title {
+    position: relative;
+    display: block;
+    padding: 0 15px;
+    height: var(--px-45);
+    line-height: var(--px-45);
+    text-align: start;
+    white-space: nowrap;
+}
+
+
+
+
+
+.navigation.active {
+    width: calc(var(--px-45) + 25px);
+}
+    ul li.active a, ul li a
+
+{
+    animation: .5s zpruhledni;
+}
+
+
+@keyframes zpruhledni {
+    from {
+        color: var(--clr-primary);
+    }
+
+    to {
+        color: transparent;
+    }
+}

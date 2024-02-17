@@ -1,0 +1,445 @@
+﻿.cardBox {
+    position: relative;
+    width: fit-content;
+    padding: 20px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+    .card
+
+{
+    position: relative;
+    width: 180px;
+    background: var(--bg-up);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: var(--shadow-up);
+    border: 1px solid var(--clr-white);
+}
+    .cardHeader
+
+{
+    display: flex;
+    justify-content: space-between;
+}
+    .cardName
+
+{
+    color: var(--clr-text-primary);
+    width: 100%;
+    height: 16px;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 12px;
+    padding-left: 10px;
+    /*//margin-top: 5px;*/
+}
+
+.icon {
+    position: relative;
+}
+
+    .icon ion-icon {
+        position: absolute;
+        top: -7px;
+        font-size: 1.2em;
+        color: var(--clr-pozadi);
+    }
+
+        .icon ion-icon.view {
+            right: 45px;
+        }
+
+        .icon ion-icon.print {
+            right: 20px;
+        }
+
+        .icon ion-icon.edit {
+            right: -5px;
+        }
+
+
+.cardData {
+    display: flex;
+}
+    .image
+
+{
+    width: 140px;
+    height: 100px;
+    padding: 5px;
+    box-shadow: var(--shadow-down);
+    border-radius: 6px;
+    border: 1px solid var(--clr-lightgray);
+}
+    img
+
+{
+    max-width: -webkit-fill-available;
+    border-radius: 5px;
+}
+
+}
+
+.datum {
+    position: absolute;
+    bottom: 45px;
+    right: -27px;
+    font-size: .9em;
+    font-weight: 400;
+    color: var(--clr-text-primary);
+    transform: rotateZ(270deg);
+}
+
+
+.card:hover {
+    background: var(--bg-middle);
+    box-shadow: var(--shadow-middle);
+}
+    .cardName
+
+{
+    color: var(--clr-primary);
+}
+
+.icon ion-icon {
+    font-size: 1.3em;
+    color: var(--clr-gray);
+}
+
+.icon:hover ion-icon {
+    font-size: 1.4em;
+    color: var(--clr-primary);
+}
+
+
+.card.active {
+    background: var(--bg-down);
+    box-shadow: var(--shadow-down);
+    border: 1px solid var(--clr-gray);
+}
+    .cardName
+
+{
+    color: var(--clr-primary);
+}
+
+.cardData .image {
+    box-shadow: var(--shadow-up);
+}
+
+.icon ion-icon {
+    font-size: 1.3em;
+    color: var(--clr-text-primary);
+}
+
+
+.dissableCardClick {
+    pointer-events: none;
+}
+
+.details {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+}
+    table
+
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+    thead td
+
+{
+    font-weight: 600;
+}
+
+
+.recentOrders {
+    position: relative;
+    display: grid;
+    min-height: 500px;
+    background: var(--white);
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    border-radius: 20px;
+}
+    .cardHeader
+
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+    h2
+
+{
+    font-weight: 600;
+    color: var(--clr-primary);
+}
+
+
+table tr {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+    table tr td {
+        padding: 9px 5px;
+    }
+
+table tbody tr:last-child {
+    border-bottom: none;
+}
+
+table tbody tr:hover {
+    background: var(--clr-primary);
+    color: var(--white);
+}
+
+table thead tr td:last-child,
+table tbody tr td:last-child {
+    text-align: right;
+}
+
+table thead tr td:nth-child(2),
+table tbody tr td:nth-child(2) {
+    text-align: right;
+    padding-right: 20px;
+}
+
+table thead tr td:nth-child(3),
+table tbody tr td:nth-child(3) {
+    text-align: center;
+}
+
+
+.recentCustommers {
+    position: relative;
+    min-height: 530px;
+    background: var(--white);
+    padding: 20px;
+}
+    .imgBox
+
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+    img
+
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+table tr:hover,
+table tr:hover td h4 span {
+    background: var(--clr-primary);
+    color: var(--white);
+}
+
+table tr td {
+    padding: 7px 10px;
+}
+
+    table tr td h4 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.2em;
+    }
+        span
+
+{
+    font-size: 14px;
+    color: var(--gray);
+}
+
+
+
+
+
+.status {
+    position: relative;
+    padding: 2px 4px;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.delivered {
+    background: #8de02c;
+}
+
+.pending {
+    background: #f9ca3f;
+}
+
+.return {
+    background: #f00;
+}
+
+.inprogress {
+    background: #1795ce;
+}
+
+/*====================================== Responsive*/
+@media (max-width: 1610px) {
+    .cardBox
+
+{
+    grid-template-columns: repeat(6, 1fr);
+}
+
+}
+
+@media (max-width: 1420px) {
+    .cardBox {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 1230px) {
+    .cardBox {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1050px) {
+    .navigation {
+        //left: -250px;
+        width: calc(var(--px-60) + 25px);
+    }
+
+        .navigation.active {
+            width: 250px;
+            left: 0;
+        }
+
+    .main {
+        width: 100%;
+        left: calc(var(--px-60) + 25px);
+    }
+
+        .main.active {
+            width: calc(100% - 250px);
+            left: 250px;
+        }
+}
+
+@media (max-width: 820px) {
+    .cardBox {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .navigation {
+        left: -250px;
+    }
+
+/*    // .navigation.active {
+        // width: 250px;
+        // left: 0;
+        //
+    }*/
+
+    .main {
+        width: 100%;
+        left: 0;
+    }
+
+/*    // .main.active {
+        // width: calc(100% - 250px);
+        // left: 250px;
+        //
+    }*/
+}
+
+@media (max-width: 635px) {
+    .mr2 {
+        margin-right: 1rem;
+    }
+
+    .cardBox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .cardBox {
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px 0;
+    }
+        .card
+
+{
+    width: 140px;
+}
+    .cardData .image
+
+{
+    width: 100px;
+    height: 75px;
+}
+
+.cardData .datum {
+    font-size: .8em;
+    bottom: 38px;
+    right: -23px;
+}
+
+.detail .recentOrders {
+    overflow-x: auto;
+}
+
+    .detail .recentOrders table {
+        width: 600px;
+    }
+
+.navigation {
+    width: 100%;
+    left: -100%;
+    z-index: 1000;
+    background: var(--clr-pozadi);
+}
+
+    .navigation.active {
+        width: 100%;
+        left: 0;
+    }
+
+.main.active .toggle {
+    z-index: 10000;
+    right: 0;
+    left: initial;
+    position: fixed;
+    color: var(--clr-primary);
+}
+
+.main,
+.main.active {
+    width: 100%;
+    left: 0;
+}
+
+.add {
+    width: 35px;
+    overflow: hidden;
+    padding: 7px 0;
+    padding-left: 50px;
+}

@@ -1,0 +1,53 @@
+﻿@page "/home/kalendar"
+@layout MainLayout
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@using System.Security.Claims
+@using Client.Pages.AccountPages
+<AuthorizeView>
+    <Authorized>
+        <h3>Kalendar</h3>
+        <h1>ClaimsPrincipal Data</h1>
+        <button @onclick="GetClaimsPrincipalData">Get ClaimsPrincipal Data</button>
+
+        <p>@authMessage</p>
+
+        @if (claims.Count() > 0)
+        {
+            <ul>
+                @foreach (var claim in claims)
+                {
+                    <li>@claim.Type: @claim.Value</li>
+                }
+            </ul>
+        }
+
+        <p>@surname</p>
+    </Authorized>
+    <NotAuthorized><NotAuthorizedPage /></NotAuthorized>
+</AuthorizeView>
+
+
+
+@code {
+    private string? authMessage;
+    private string? surname;
+    private IEnumerable<Claim> claims = Enumerable.Empty<Claim>();
+
+    private async Task GetClaimsPrincipalData()
+    {
+        var authState = await AuthenticationStateProvider
+            .GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            authMessage = $"{user.Identity.Name} is authenticated.";
+            claims = user.Claims;
+            surname = user.FindFirst(c => c.Type == ClaimTypes.Surname)?.Value;
+        }
+        else
+        {
+            authMessage = "The user is NOT authenticated.";
+        }
+    }
+}

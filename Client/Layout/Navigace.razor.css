@@ -1,0 +1,160 @@
+﻿.navigace {
+    display: flex;
+}
+.nav-panel {
+    width: 250px;
+    height: 100vh;
+    border-left: 2px solid var(--clr-primary);
+    transition: 0.5s;
+    overflow: hidden;
+    box-shadow: var(--shadow-middle);
+}
+    .nav-panel .nav-ul {
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+.nav-item {
+    position: relative;
+    width: 100%;
+}
+/*===================================== first of type .nav-item */
+.nav-item:first-of-type ::deep a {
+    pointer-events: none;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+    .nav-item:first-of-type ::deep a.active {
+        background: none;
+        box-shadow: none;
+        border: none;
+    }
+    .nav-item:first-of-type ::deep a i {
+        margin-right: 1.6rem;
+        padding-top: 0;
+        margin-left: 10px;
+    }
+    .nav-item:first-of-type ::deep a span {
+        color: var(--clr-primary);
+        overflow: hidden;
+    }
+    .nav-item:first-of-type ::deep a label {
+        position: absolute;
+        top: 30px;
+        left: 84px;
+        font-size: .6rem;
+        font-weight: 600;
+        letter-spacing: .5em;
+    }
+    .nav-item:last-of-type {
+        padding-bottom: 1rem;
+    }
+    /*===================================== ostatní .nav-item */
+    .nav-item ::deep a {
+        position: relative;
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1em;
+        font-weight: 700;
+        color: var(--clr-text-primary);
+        align-items: center;
+        list-style: none;
+        border-radius: calc(var(--px-45) / 2);
+        background: var(--bg-up);
+        box-shadow: var(--shadow-up);
+        margin: 8px 0;
+        border: 1px solid var(--clr-white);
+    }
+        .nav-item ::deep a:hover {
+            background: var(--bg-middle);
+            box-shadow: var(--shadow-middle);
+        }
+        .nav-item ::deep a.active {
+            background: var(--bg-down);
+            box-shadow: var(--shadow-down);
+            border: 1px solid var(--clr-primary);
+        }
+        .nav-item ::deep a i {
+            position: relative;
+            display: block;
+            width: var(--px-45);
+            height: var(--px-45);
+            text-align: center;
+            font-size: 1.5em;
+            padding-top: 6px;
+            margin-left: 12px;
+            color: var(--clr-primary);
+        }
+        .nav-item ::deep a span {
+            white-space: nowrap;
+            animation: .5s znepruhledni forwards;
+            animation-delay: .2s;
+            opacity: 0;
+        }
+        .nav-item ::deep a.active span {
+            color: var(--clr-primary);
+            animation: .5s znepruhledni forwards;
+            animation-delay: .2s;
+            opacity: 0;
+        }
+/*===================================== nav-panel.active => a i */
+.nav-panel.active {
+    width: calc(var(--px-45) + 25px);
+}
+    .nav-panel.active .nav-ul .nav-item ::deep a.active span,
+    .nav-panel.active .nav-ul .nav-item ::deep a span {
+        animation: .5s zpruhledni forwards;
+        opacity: 1;
+    }
+.nav-panel.active .nav-ul .nav-item ::deep a.active i,
+.nav-panel.active .nav-ul .nav-item:first-of-type ::deep a.active i,
+.nav-panel.active .nav-ul .nav-item:first-of-type ::deep a i {
+    color: var(--clr-primary);
+}
+.nav-panel.active .nav-ul .nav-item ::deep a i {
+    color: var(--clr-text-primary);
+}
+@keyframes zpruhledni {
+    to {
+        opacity: 0;
+    }
+}
+@keyframes znepruhledni {
+    to {
+        opacity: 1;
+    }
+}
+
+
+.nav-close {
+    height: 50px;
+    background: transparent;
+    padding: 0.35rem 0.15rem;
+}
+.nav-toggler {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+    .nav-toggler i {
+        font-size: 1.8em;
+    }
+.top-row {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+/*===================================== media */
+@media (max-width: 641px) {
+}
+
+@media (max-width: 361px) {
+    .nav-panel.active {
+        width: 0;
+    }
+}

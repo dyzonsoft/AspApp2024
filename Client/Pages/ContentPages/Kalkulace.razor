@@ -1,0 +1,13 @@
+﻿@page "/home/kalkulace"
+@layout MainLayout
+@using Client.Pages.AccountPages
+<AuthorizeView>
+    <Authorized>
+        <h3>Kalkulace</h3>
+    </Authorized>
+    <NotAuthorized><NotAuthorizedPage /></NotAuthorized>
+</AuthorizeView>
+
+@code {
+
+}

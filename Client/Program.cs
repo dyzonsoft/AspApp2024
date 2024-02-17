@@ -11,8 +11,8 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
+builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddTransient<CustomHttpHandler>();
-
 builder.Services.AddHttpClient("SystemApiClient", client =>
 {
     client.BaseAddress = new Uri("https://localhost:7284/");

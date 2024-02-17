@@ -1,0 +1,71 @@
+﻿@page "/nav"
+@using Microsoft.AspNetCore.Components.Authorization
+<AuthorizeView>
+    <Authorized>
+        <div class="navigace">
+            <div class="@NavMenuCssClass nav-panel">
+                <div class="nav-ul">
+                    <div class="nav-item">
+                        <NavLink href="/home/dashboard">
+                            <i class="bi bi-clipboard-data-fill"></i>
+                            <span>AIR SHAPE</span>
+                            <label class="nav-production">PRODUCTION</label>
+                        </NavLink>
+                    </div>
+                    <div class="nav-item">
+                        <NavLink href="/home/zakazky">
+                            <i class="bi bi-images"></i>
+                            <span>Zakazky</span>
+                        </NavLink>
+                    </div>
+                    <div class="nav-item">
+                        <NavLink href="/home/kontakty">
+                            <i class="bi bi-people-fill"></i>
+                            <span>Kontakty</span>
+                        </NavLink>
+                    </div>
+                    <div class="nav-item">
+                        <NavLink href="/home/kalkulace">
+                            <i class="bi bi-calculator-fill"></i>
+                            <span>Kalkulace</span>
+                        </NavLink>
+                    </div>
+                    <div class="nav-item">
+                        <NavLink href="counter">
+                            <i class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></i>
+                            <span>Counter</span>
+                        </NavLink>
+                    </div>
+                    <div class="nav-item">
+                        <NavLink href="/home/kalendar">
+                            <i class="bi bi-calendar2-week"></i>
+                            <span>Kalendář</span>
+                        </NavLink>
+                    </div>
+                    <div class="nav-item">
+                        <NavLink href="/home/dodavatele">
+                            <i class="bi bi-incognito"></i>
+                            <span>Dadavatelé</span>
+                        </NavLink>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-close">
+                <div title="Navigation menu" class="nav-toggler" @onclick="ToggleNavMenu">
+                    <i class="bi bi-list"></i>
+                </div>
+            </div>
+        </div>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    private bool collapseNavMenu = false;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "active" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

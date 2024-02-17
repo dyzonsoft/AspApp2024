@@ -1,0 +1,72 @@
+﻿@* @page "/nav" *@
+@using Microsoft.AspNetCore.Components.Authorization
+<AuthorizeView>
+    <Authorized>
+        <div class="container">
+            <div class="@NavMenuCssClass navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="analytics"></ion-icon></span>
+                            <span class="title"><h2>AIR SHAPE</h2></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="photos"></ion-icon></span>
+                            <span class="title">Zakazky</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="contacts"></ion-icon></span>
+                            <span class="title">Kontakty</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="calculator"></ion-icon></span>
+                            <span class="title">Kalkulace</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="cart"></ion-icon></span>
+                            <span class="title">Pokladna</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="calendar"></ion-icon></span>
+                            <span class="title">Kalendář</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="car"></ion-icon></span>
+                            <span class="title">Autopark</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+                            <span class="title">Sign Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    private bool collapseNavMenu = false;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "active" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
+

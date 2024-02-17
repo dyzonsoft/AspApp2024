@@ -1,7 +1,12 @@
 ﻿@page "/home/dashboard"
 @layout MainLayout
-
-<h3>HomePage</h3>
+@using Client.Pages.AccountPages
+<AuthorizeView>
+    <Authorized>
+        <h3>HomePage</h3>
+    </Authorized>
+    <NotAuthorized><NotAuthorizedPage /></NotAuthorized>
+</AuthorizeView>
 
 @code {
     [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
@@ -13,6 +18,7 @@
     private async Task CheckUserAuthentication()
     {
         var user = (await AuthenticationState).User;
+        var d = user.Claims;
         bool isUserAuthenticated = user.Identity!.IsAuthenticated;
         if (!isUserAuthenticated)
             NavManager.NavigateTo("/identity/account/login");

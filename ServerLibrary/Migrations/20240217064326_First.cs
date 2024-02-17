@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace ServerLibrary.Data.Migrations
+namespace ServerLibrary.Migrations
 {
     /// <inheritdoc />
-    public partial class Auth : Migration
+    public partial class First : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
