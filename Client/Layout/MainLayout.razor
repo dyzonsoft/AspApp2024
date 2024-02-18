@@ -1,14 +1,17 @@
 ﻿@using Client.Pages.OtherPages
+@using Client.Components
 @using Microsoft.AspNetCore.Authorization
+@inject LocalStorageService _localStorage
 @inherits LayoutComponentBase
 @attribute [Authorize]
 
-<div class="pohled">
+<div class="pohled @GetTheme()">
     
     <Navigace />
     <main>
         <div class="top-row px-4">
-            <ProfileDropDown></ProfileDropDown>
+            <ThemeBar OnThemeChanged="ChangingTheme" />
+            <UserBar />
         </div>
 
         <article class="content px-4">
@@ -16,3 +19,30 @@
         </article>
     </main>
 </div>
+@code {
+    private string _selectedTheme = "light";
+    private readonly string _keyTheme = "theme";
+
+    protected override async Task OnInitializedAsync()
+    {
+        var themeFromLocalStorage = await _localStorage.GetThemeAsync();
+        if (!string.IsNullOrEmpty(themeFromLocalStorage))
+        {
+            _selectedTheme = themeFromLocalStorage;
+        }
+    }
+
+    private string GetTheme()
+    {
+        if (_selectedTheme == "light") return string.Empty;
+        else return "dark";
+    }
+
+    private bool IsSelectedTheme(string theme) => theme == _selectedTheme;
+
+    private async Task ChangingTheme()
+    {
+        if (_selectedTheme == "light") _selectedTheme = "dark"; else _selectedTheme = "light";
+        await _localStorage.SetThemeAsync(_selectedTheme);
+    }
+}

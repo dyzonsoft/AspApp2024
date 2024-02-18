@@ -1,0 +1,61 @@
+﻿@using System.Security.Claims
+
+<div class="dropdown-center">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="@(ProfileImage == "" ? "../images/profile/defaultprofileimage.webp" : ProfileImage)" />
+    </button>
+    <ul class="dropdown-menu">
+        <div class="user-info">
+            <span class="name">@UserName</span>
+            <span class="email">@UserEmail</span>
+            <span class="role">@UserRole</span>
+        </div>
+        <li><a class="" href="#">Profil</a></li>
+        <li><a class="" href="#">něco dalšího</a></li>
+        <li><a class="" href="#">prdlajs</a></li>
+        <div class="dropdown-footer">
+            <button class="btn btn-danger btn-sm" @onclick="LogoutClicked">
+                <i class="bi bi-box-arrow-left"></i>
+                Logout
+            </button>
+        </div>
+    </ul>
+</div>
+
+@code {
+    public string ProfileImage { get; set; } = "";
+    public string UserName = string.Empty;
+    public string UserEmail = string.Empty;
+    public string UserRole = string.Empty;
+
+    [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
+    protected async override Task OnInitializedAsync()
+    {
+        await GetUserName();
+    }
+
+    private async Task GetUserName()
+    {
+        var user = (await AuthenticationState).User;
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            UserName = user.FindFirst(c => c.Type == ClaimTypes.Name)?.Value!;
+            UserEmail = user.FindFirst(c => c.Type == ClaimTypes.Email)?.Value!;
+            UserRole = user.FindFirst(c => c.Type == ClaimTypes.Role)?.Value!;
+        }
+        else
+        {
+            UserName = "HOST";
+            UserEmail = "";
+            UserRole = "";
+        }
+    }
+
+    async Task LogoutClicked()
+    {
+        var logoutModel = new UserSession();
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationState(logoutModel);
+        NavManager.NavigateTo("/identity/account/login", replace: true, forceLoad: true);
+    }
+}

@@ -1,0 +1,59 @@
+﻿.dropdown-center .btn img {
+    width: 40px;
+}
+.dropdown-menu {
+    background: var(--clr-pozadi);
+    color: var(--clr-rext-secondary);
+    text-align:center;
+}
+ul .user-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    padding-bottom: 1em;
+    line-height: 1;
+    background: var(--clr-pozadi-secondary);
+}
+.user-info .name {
+    font-size: .9em;
+    font-weight: 500;
+    color: var(--clr-primary);
+}
+.user-info .email {
+    font-size: .7em;
+}
+.user-info .role {
+    font-size: .7em;
+    font-weight: 500;
+}
+ul li {
+    text-align: center;
+    background: var(--clr-pozadi);
+    border: 1px solid var(--clr-pozadi-secondary);
+    padding: 2px 0;
+    cursor: pointer;
+}
+    ul li a {
+        color: var(--clr-text-primary);
+        text-decoration: none;
+        font-size: .8em;
+        font-weight: 500;
+    }
+    li button i {
+        margin-right: 1em;
+    }
+.dropdown-footer {
+    background: var(--clr-pozadi-secondary);
+    padding: 5px 0;
+}
+li:hover {
+    background: var(--clr-pozadi-secondary);
+    border: 1px solid var(--clr-primary);
+}
+    li:hover a {
+        color: var(--clr-primary);
+    }
+button::after {
+    color: var(--clr-text-primary);
+    margin-left: .5em;
+}

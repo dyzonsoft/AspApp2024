@@ -4,6 +4,7 @@
 :root {
     --px-45: 45px;
     --clr-pozadi: #EFEEEE;
+    --clr-pozadi-secondary: rgba(0,0,0,.05);
     --clr-gray: rgb(209, 209, 209);
     --clr-lightgray: #a7a7a785;
     --clr-white: #fff;
@@ -16,11 +17,12 @@
     --shadow-down: inset 5px 5px 12px #c6c6c6, inset -5px -5px 12px #ffffff;
     --clr-primary: #287b77;
     --clr-text-primary: #444;
-    --clr-text-secundary: #888;
+    --clr-text-secondary: #888;
 }
 
 .dark {
     --clr-pozadi: #444444;
+    --clr-pozadi-secondary: rgba(255,255,255,.05);
     --clr-gray: rgb(209, 209, 209);
     --clr-lightgray: #a7a7a785;
     --clr-white: #000;
@@ -33,7 +35,7 @@
     --shadow-down: inset 5px 5px 12px #2e2e2e, inset 5px 5px 12px #5a5a5a;
     --clr-primary: #3a9a95;
     --clr-text-primary: #ddd;
-    --clr-text-secundary: #999;
+    --clr-text-secondary: #999;
 }
 
 * {
@@ -61,10 +63,12 @@ body {
     .account-page .card-header {
         display: flex;
         line-height: 1;
+        background: var(--clr-pozadi-secondary);
     }
 
     .account-page .card-footer {
         display: flow-root;
+        background: var(--clr-pozadi-secondary);
     }
 .butn {
     box-sizing: border-box;

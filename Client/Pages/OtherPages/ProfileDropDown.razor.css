@@ -1,0 +1,24 @@
+﻿h3 {
+    font-size: 30px;
+}
+.user-account {
+    display: block;
+}
+
+    .user-account .image {
+        width: 50px;
+        height: 50px;
+    }
+
+.account-panel {
+    position: absolute;
+    width: 150px;
+    border: 2px solid red;
+}
+
+    .account-panel .email {
+        color: red;
+    }
+
+    .account-panel .role {
+    }
