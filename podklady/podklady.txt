@@ -1,0 +1,7 @@
+dyzontest.cz\WWWRoot
+dyzontest.cz.purple.globenet.cz
+dyzonsoft.cz  Active 24  fabaamaj 
+MsSql
+d014479a / AspApp2024_data
+ftp
+v033497a / AspApp2024_ftp
